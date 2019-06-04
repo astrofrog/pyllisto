@@ -1,5 +1,6 @@
 [
-    "import numpy as np",
     "import bqplot.pyplot as plt",
-    "plt.plot([1, 2, 4])"
+    "fig = plt.figure(title='First Example')",
+    "plt.plot([1, 2, 4])",
+    "fig"
 ]

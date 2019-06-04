@@ -2,12 +2,7 @@ import * as base from '@jupyter-widgets/base';
 import * as pWidget from '@phosphor/widgets';
 
 const libs = {
-    'plotlywidget': import('plotlywidget'),
     'bqplot': import('bqplot'),
-    'jupyter-materialui': import('jupyter-materialui'),
-    'bqplot-image-gl': import('bqplot-image-gl'),
-    'jupyter-matplotlib': import('jupyter-matplotlib'),
-    'jupyter-vuetify': import('jupyter-vuetify')
 };
 
 import {
