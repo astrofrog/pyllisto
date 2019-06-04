@@ -1,10 +1,5 @@
 [
-    "filename = '/Users/nearl/data/cubeviz/MaNGA/manga-7495-12704-LOGCUBE.fits'",
-    "from jdaviz.vizcomponents.applications import cubeviz",
-    "from jdaviz.vizcomponents.vizapp import VizApp",
-    "vizapp = VizApp()",
-    "import jdaviz",
-    "from jdaviz.vizcomponents.applications import cubeviz",
-    "c = cubeviz.CubeViz(filename, vizapp)",
-    "c.show()"
+    "import numpy as np",
+    "import bqplot.pyplot as plt",
+    "plt.plot([1, 2, 4])"
 ]
